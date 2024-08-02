@@ -1,4 +1,4 @@
-## bluetooth対応ロータリーエンコーダ付きcorne
+j## bluetooth対応ロータリーエンコーダ付きcorne
 - フォームウェアにZMKを使用
 - 5個のbluetooth接続プロファイルを保持
 - 有線接続にも対応。
@@ -12,7 +12,7 @@
 
 
 ## LED点灯
-- 電源スイッチは下記写真の〇印の箇所にあります。
+- LEDは下記写真の〇印の箇所にあります。
  <img width="544" alt="led" src="./doc/led.png">
 
 - 電源投入時に２度点滅します
@@ -46,10 +46,11 @@
 - [キーマップエディタ](https://nickcoutsos.github.io/keymap-editor/)でgithubと連携後、キーマップを変更し、saveボタン![image](./doc/save.png)を押してください。
 - 5分程度経過するとフォームウェアの生成が完了しますので、![image](./doc/dl.png)このボタンをクリックしてください。
 - 画面下部へスクロールして `firmware.zip`をダウンロード及び解凍してください。
-- キーボードをPCと接続し、写真の〇印にリセットボタンがあるので、ダブルクリックしてください。<img width="544" alt="reset" src="./doc/reset.png">
+- キーボードをPCとUSBケーブルで接続し、写真の〇印にリセットボタンがあるので、ダブルクリックしてください。<img width="544" alt="reset" src="./doc/reset.png">
 - リセットボタンを押すことに慣れれば、爪楊枝やピンセット等を使用してカバーを外さずにダブルクリックができるようになります。しかし、最初はカバーを外して、そのカバーを使用してリセットボタンをクリックすることをお勧めします。
 - ダブルクリックに成功すると、`XIAO-SENSE`という名前でドライブが認識されるので、作成したキーマップのフォームウェアを書き込んでいきます。
-- 左のキーボードには`corny_left rgbled_adapter-seeeduino_xiao_ble-zmk`、右のキーボードには`corny_right rgbled_adapter-seeeduino_xiao_ble-zmk`を書き込んでください。
+- 左のキーボードには`corny_left rgbled_adapter-seeeduino_xiao_ble-zmk`、右のキーボードには`corny_right rgbled_adapter-seeeduino_xiao_ble-zmk`を書き込めば、変更完了です。
+- macにて書き込み操作をすると、エラーコード　‐36　等が上がりますが、無事書き込めています。
 
   ## デフォルトレイヤーの一覧
 - ロータリーエンコーダの押し込みも１つのキーとして認識されます。例えば、初期レイヤ―では左手のロータリエンコーダは、取り消し,やり直しが登録されていますが、押し込みながら操作するとことでブラウザでの進む，戻るの操作が可能となっています。
