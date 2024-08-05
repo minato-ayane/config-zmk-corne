@@ -73,14 +73,14 @@
             //                    | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESC        &kp Q               &kp W  &kp E         &kp R        &kp T                            &kp Y                      &kp U        &kp I          &kp O    &kp P     &kp MINUS
-&kp LEFT_GUI   &mt LEFT_GUI A      &kp S  &kp D         &kp F        &kp G                            &kp H                      &kp J        &kp K          &kp L    &kp SEMI  &kp COLON
-&mt RCTRL TAB  &mt LEFT_CONTROL Z  &kp X  &kp C         &kp V        &kp B              &mo 2  &mo 1  &kp N                      &kp M        &kp COMMA      &kp DOT  &kp FSLH  &kp BACKSLASH
-                                          &kp LEFT_ALT  &lt 2 SPACE  &mt RSHIFT DELETE                &mt RIGHT_SHIFT BACKSPACE  &lt 1 ENTER  &mt RCTRL TAB
+&mt ESC EXCLAMATION  &kp Q               &kp W  &kp E             &kp R                     &kp T                           &kp Y                  &kp U            &kp I                   &kp O    &kp P                              &kp BACKSPACE
+&kp LEFT_GUI         &mt LEFT_GUI A      &kp S  &kp D             &kp F                     &kp G                           &kp H                  &kp J            &kp K                   &kp L    &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS
+&mt LSHIFT TAB       &mt LEFT_CONTROL Z  &kp X  &kp C             &kp V                     &kp B             &mo 2  &mo 1  &kp N                  &kp M            &kp COMMA               &kp DOT  &mt SEMICOLON COLON                &mt BACKSLASH SLASH
+                                                &kp LEFT_CONTROL  &lt 0 LS(LC(APOSTROPHE))  &mt DELETE SPACE                &mt RIGHT_SHIFT ENTER  &lt 1 LC(LS(J))  &mt RIGHT_ALT LEFT_ALT
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LC(Z) LC(Y)>,
+                <&inc_dec_kp RIGHT LEFT_ARROW>,
                 <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
