@@ -73,10 +73,10 @@
             //                    | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
 
             bindings = <
-&mt ESC EXCLAMATION  &kp Q               &kp W  &kp E             &kp R                     &kp T                           &kp Y                  &kp U            &kp I                 &kp O          &kp P                              &kp BACKSPACE
-&mt LEFT_GUI TAB     &kp A               &kp S  &kp D             &kp F                     &kp G                           &kp H                  &kp J            &kp K                 &kp L          &mt TILDE MINUS                    &mt SEMI COLON
-&kp LSHIFT           &mt LEFT_CONTROL Z  &kp X  &kp C             &kp V                     &kp B             &mo 1  &mo 2  &kp N                  &kp M            &mt APOSTROPHE COMMA  &mt SLASH DOT  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS
-                                                &kp LEFT_CONTROL  &lt 1 LS(LC(APOSTROPHE))  &mt DELETE SPACE                &mt RIGHT_SHIFT ENTER  &lt 2 LC(LS(J))  &kp LEFT_ALT
+&mt ESC EXCLAMATION  &kp Q               &kp W  &kp E             &kp R        &kp T                                            &kp Y                  &kp U        &kp I                 &kp O          &kp P                              &kp BACKSPACE
+&mt LEFT_GUI TAB     &kp A               &kp S  &kp D             &kp F        &kp G                                            &kp H                  &kp J        &kp K                 &kp L          &mt TILDE MINUS                    &mt SEMI COLON
+&kp LSHIFT           &mt LEFT_CONTROL Z  &kp X  &kp C             &kp V        &kp B             &kp K_COPY  &kp LA(LS(LG(V)))  &kp N                  &kp M        &mt APOSTROPHE COMMA  &mt SLASH DOT  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS
+                                                &kp LEFT_CONTROL  &lt 1 LANG2  &mt DELETE SPACE                                 &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &kp LEFT_ALT
             >;
 
             sensor-bindings =
@@ -92,10 +92,10 @@
             //                    | GUI |     | SPC |                    | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE      &kp N1    &kp N2     &kp N3            &kp N4                    &kp N5                   &kp N6     &kp N7           &kp N8        &kp N9     &kp N0       &kp BACKSPACE
-&kp LEFT_GUI    &kp PLUS  &kp MINUS  &kp ASTERISK      &kp SLASH                 &kp EQUAL                &kp UP     &kp DOWN         &kp LEFT      &kp RIGHT  &kp PAGE_UP  &kp PAGE_DOWN
-&kp LEFT_SHIFT  &kp F1    &kp F2     &kp F3            &kp F4                    &kp F5     &mo 0  &mo 2  &kp F6     &kp F7           &kp F8        &kp F9     &kp F10      &kp F11
-                                     &kp LEFT_CONTROL  &lt 0 LS(LC(APOSTROPHE))  &kp SPACE                &kp ENTER  &lt 2 LS(LC(J))  &kp LEFT_ALT
+&kp ESCAPE      &kp N1    &kp N2     &kp N3            &kp N4       &kp N5                           &kp N6     &kp N7       &kp N8        &kp N9     &kp N0       &kp BACKSPACE
+&kp LEFT_GUI    &kp PLUS  &kp MINUS  &kp ASTERISK      &kp SLASH    &kp EQUAL                        &kp UP     &kp DOWN     &kp LEFT      &kp RIGHT  &kp PAGE_UP  &kp PAGE_DOWN
+&kp LEFT_SHIFT  &kp F1    &kp F2     &kp F3            &kp F4       &kp F5     &kp LC(Z)  &kp LC(Y)  &kp F6     &kp F7       &kp F8        &kp F9     &kp F10      &kp F11
+                                     &kp LEFT_CONTROL  &lt 0 LANG2  &kp SPACE                        &kp ENTER  &lt 2 LANG1  &kp LEFT_ALT
             >;
 
             sensor-bindings =
@@ -111,10 +111,10 @@
             //                    | GUI |     | SPC |                    | ENT |     | ALT |
 
             bindings = <
-&trans         &kp EXCL          &kp AT          &kp HASH          &kp DLLR                  &kp PRCNT                        &kp CARET          &kp AMPS               &kp UNDER             &kp PLUS                  &kp ASTERISK      &kp EQUAL
-&kp LESS_THAN  &kp SINGLE_QUOTE  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS      &kp DOUBLE_QUOTES                &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &kp RIGHT_BRACE           &kp SINGLE_QUOTE  &kp GREATER_THAN
-&bt BT_CLR     &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3              &bt BT_SEL 4       &mo 0  &mo 1  &kp PRINTSCREEN    &kp PAUSE_BREAK        &kp C_AL_TEXT_EDITOR  &kp C_AL_GRAPHICS_EDITOR  &kp PIPE          &kp TILDE
-                                                 &trans            &lt 0 LS(LC(APOSTROPHE))  &kp SPACE                        &kp ENTER          &lt 1 LS(LC(J))        &trans
+&lt 3 ESCAPE   &kp EXCL          &kp AT          &kp HASH          &kp DLLR              &kp PRCNT                        &kp CARET          &kp AMPS               &kp UNDER             &kp PLUS                  &kp ASTERISK      &kp EQUAL
+&kp LESS_THAN  &kp SINGLE_QUOTE  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp DOUBLE_QUOTES                &kp DOUBLE_QUOTES  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET     &kp RIGHT_BRACE           &kp SINGLE_QUOTE  &kp GREATER_THAN
+&bt BT_CLR     &bt BT_SEL 0      &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3          &bt BT_SEL 4       &mo 0  &mo 1  &kp PRINTSCREEN    &kp PAUSE_BREAK        &kp C_AL_TEXT_EDITOR  &kp C_AL_GRAPHICS_EDITOR  &kp PIPE          &kp TILDE
+                                                 &trans            &lt 0 LANG2           &kp SPACE                        &kp ENTER          &lt 1 LANG1            &trans
             >;
 
             sensor-bindings =
@@ -124,10 +124,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N7  &kp N8   &kp N9  &kp KP_MINUS  &kp SLASH
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N4  &kp N5   &kp N6  &kp PLUS      &kp ASTERISK
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2   &kp N3  &kp ENTER     &kp EQUAL
-                        &trans  &trans  &trans                  &trans  &kp N0  &kp DOT
+&trans  &trans  &trans  &trans  &trans  &trans                &trans  &kp N7  &kp N8   &kp N9  &kp KP_MINUS  &kp SLASH
+&trans  &trans  &trans  &trans  &trans  &trans                &trans  &kp N4  &kp N5   &kp N6  &kp PLUS      &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &trans  &mo 0  &mo 1  &trans  &kp N1  &kp N2   &kp N3  &kp ENTER     &kp EQUAL
+                        &trans  &trans  &trans                &trans  &kp N0  &kp DOT
             >;
         };
     };
