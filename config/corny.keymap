@@ -74,7 +74,7 @@
 
             bindings = <
 &mt ESC EXCLAMATION  &kp Q               &kp W  &kp E             &kp R        &kp T                                           &kp Y                  &kp U        &kp I                 &kp O             &kp P                              &kp BACKSPACE
-&mt LEFT_GUI TAB     &kp A               &kp S  &kp D             &kp F        &kp G                                           &kp H                  &kp J        &kp K                 &kp L             &mt TILDE MINUS                    &mt SEMICOLON KP_ENTER
+&mt LEFT_GUI TAB     &kp A               &kp S  &kp D             &kp F        &kp G                                           &kp H                  &kp J        &kp K                 &kp L             &mt TILDE MINUS                    &mt SEMICOLON RET
 &kp LSHIFT           &mt LEFT_CONTROL Z  &kp X  &kp C             &kp V        &kp B             &kp LG(C)  &kp LA(LS(LG(V)))  &kp N                  &kp M        &mt APOSTROPHE COMMA  &mt QUESTION DOT  &mt LEFT_BRACKET LEFT_PARENTHESIS  &mt RIGHT_BRACKET RIGHT_PARENTHESIS
                                                 &kp LEFT_CONTROL  &lt 1 LANG2  &mt DELETE SPACE                                &mt RIGHT_SHIFT ENTER  &lt 2 LANG1  &kp LEFT_ALT
             >;
